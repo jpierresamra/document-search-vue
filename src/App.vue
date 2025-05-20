@@ -37,7 +37,7 @@ async function search() {
 </script>
 
 <template>
-  <main style="max-width: 500px; margin: 2rem auto; padding: 2rem; border: 1px solid #eee; border-radius: 8px;">
+  <main style="padding: 2rem;">
     <h1>Document Search</h1>
     <form @submit.prevent="search">
       <input
